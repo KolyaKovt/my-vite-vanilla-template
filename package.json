@@ -8,14 +8,11 @@
     "preview": "vite preview",
     "rebuild": "rm -r dist && vite build"
   },
+  "author": "Mykola Kovtunets <kovtunets73@gmail.com>",
   "devDependencies": {
-    "glob": "^8.1.0",
-    "vite": "^4.0.5"
-  },
-  "author": "Mykola Kovtunets",
-  "dependencies": {
-    "simplelightbox": "^2.14.2",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
+    "glob": "^10.3.10",
+    "vite": "^5.0.10",
+    "vite-plugin-full-reload": "^1.1.0",
+    "vite-plugin-html-inject": "^1.0.4"
   }
 }
