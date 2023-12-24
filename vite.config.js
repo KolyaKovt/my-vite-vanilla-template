@@ -8,10 +8,10 @@ export default defineConfig(() => {
     base: "./", // the base of the paths in output directory (what paths in the dist directory are gonna begin with)
     build: {
       rollupOptions: {
-        input: globSync("./src/**.html"),
+        input: globSync("./src/**.html"), // the entry point
       },
       outDir: "../dist", // the output directory (dist folder)
     },
-    plugins: [injectHTML()],
+    plugins: [injectHTML()], // plugins
   };
 });
